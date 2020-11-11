@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.header{
+	width: 100%;
+	height: 110px;
+	display: block;
+	background-color: #B146C2;
+}
+
+.img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.inner-header{
+		width: 1000px;
+		height: 100%;
+		display: block;
+		margin: 0 auto;
+}
+
+.logo-container{
+		height: 100%;
+		display: table;
+		float: left;
+}
+
+.logo-container img{
+		height: 90%;
+		display: table-cell;
+		vertical-align: middle;
+}
+
+.navigation{
+		float: right;
+		height: 100%;
+}
+
+.navigation a{
+		height: 100%
+		display: table;
+		float: left;
+		padding: 40px 20px;
+		
+}
+
+.navigation a li{
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+	font-size: 20px;
+	font-family: 'Raleway';
+}
+
+.title{
+	padding: 50px;
+	text-align: center;
+}
+
+.divide{
+	margin: -20px auto;
+	width: 980px;
+	height: 5px;
+	background-color: red;
+}
+
+.ref-pic-container{
+	margin: 10px auto;
+	width: 100%;
+	height: 900px;
+}
+
+.ref-inner{
+	text-align: center;
+	width: 1200px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+
+}
+
+.ref-pic a{
+		float: left;
+}	
+
+.ref-pic a li img{
+		width: 396px;
+		height: 392px;
+		display: table-cell;
+
+}
+
+.waw{
+	position: relative;
+}
+
+.r1{
+	position: absolute;
+	top: 350px;
+	left: 90px;
+}
+
+.r2{
+	position: absolute;
+	top: 350px;
+	left: 480px;
+}
+
+.r3{
+	position: absolute;
+	top: 350px;
+	right: 110px;
+}
+
+.r4{
+	position: absolute;
+	top: 745px;
+	left: 65px;
+}
+
+.r5{
+	position: absolute;
+	top: 745px;
+	left: 505px;
+}
+
+.refContainer{
+	margin: 0 auto;
+	width: 1200px;
+	height: 1100px;
+}
+
+.refContainer3{
+	margin: 0 auto;
+	width: 1200px;
+	height: 1250px;
+}
+
+.refContainer5{
+	margin: 0 auto;
+	width: 1200px;
+	height: 1600px;
+}
+
+.r1p{
+	text-align: center;
+	position: relative;
+}
+
+.a1{
+	position: absolute;
+	top: 350px;
+	left: 65px;
+}
+
+.a2{
+	position: absolute;
+	top: 350px;
+	left: 528px;
+}
+
+.a3{
+	position: absolute;
+	top: 350px;
+	right: 90px;
+}
+
+.a4{
+	position: absolute;
+	top: 745px;
+	left: 100px;
+}
+
+.a5{
+	position: absolute;
+	top: 745px;
+	left: 515px;
+}
+
+.a6{
+	position: absolute;
+	top: 745px;
+	right: 70px;
+}
+
+.a1Container{
+	margin: 0 auto;
+	width: 1200px;
+	height: 3700px;
+}
+
+.a2Container{
+	margin: 0 auto;
+	width: 1200px;
+	height: 3000px;
+}
+
+.a5Container{
+	margin: 0 auto;
+	width: 1200px;
+	height: 2100px;
+}
+
+.a4Container{
+	margin: 0 auto;
+	width: 1200px;
+	height: 1700px;
+}
+
+.a6Container{
+	margin: 0 auto;
+	width: 1200px;
+	height: 2350px;
+}
+
+
+.ase1{
+	text-align: center;
+}
+
+.ase2{
+	text-align: center;
+}
+
+.ase4{
+	text-align: left;
+}

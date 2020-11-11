@@ -1,0 +1,97 @@
+<html>
+
+	<head>	
+		<link rel= "stylesheet" type= "text/css" href= "css/lStyle.css">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+		<title>dbe</title>
+	</head>
+
+	
+		<body>
+
+		<div class= "header">
+			<div class= "inner-header">
+				<div class= "logo-container" onclick="location.href='index.htm';">
+					<img src = "img/logo.png">
+				</div>
+				
+				<ul class= "navigation">
+					<a href="index.htm"><li>Home</li></a>
+					<a href= "index.htm#content"><li>About Me</li></a>
+					<a><li><font color = "black">Learnings</font></li></a>
+					<a href= "acts.htm"><li>Activities</li></a>
+					<a href="reflection.htm"><li>Reflections</li></a>
+				</ul>		
+			</div>
+		</div>
+		
+		<div class = "title">
+			<font face= "Raleway" size= "50">LEARNINGS</font>
+		</div>
+		
+		<div class= "divide">
+			
+		</div>
+		<br><br><br>
+		
+		<div class= "ref-pic-container">
+			<div class= "ref-inner">
+				<ul class= "ref-pic">
+				<div class = "waw">
+					<a><li><img id= "myImg" src= "img/l1.jpg" style="width:400px;height:309px;max-width:400px"><li></a>
+					<a><li><img id= "myImg" src= "img/l2.jpg" style="width:400px;height:309px;max-width:400px"></li></a>
+					<a><li><img id= "myImg" src= "img/l3.jpg" style="width:400px;height:309px;max-width:400px"></li></a>
+					<a><li><img id= "myImg" src= "img/l4.jpg" style="width:400px;height:309px;max-width:400px"><li></a>
+					<a><li><img id= "myImg" src= "img/l5.jpg" style="width:400px;height:309px;max-width:400px"></li></a>
+					<a><li><img id= "myImg" src= "img/l6.jpg" style="width:400px;height:309px;max-width:400px"></li></a>
+					<a><li><img id= "myImg" src= "img/l7.jpg" style="width:400px;height:309px;max-width:400px"><li></a>
+					<a><li><img id= "myImg" src= "img/l8.jpg" style="width:400px;height:309px;max-width:400px"></li></a>
+					<a><li><img id= "myImg" src= "img/l6.jpg" style="width:400px;height:309px;max-width:400px"></li></a>
+				</div>
+				</ul>
+			</div>
+			
+					<div class= "divide">
+			
+					</div>
+		</div>
+		
+		<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+			
+			<script>
+				var modal = document.getElementById("myModal");
+
+
+				var img = document.getElementById("myImg");
+				var modalImg = document.getElementById("img01");
+				var captionText = document.getElementById("caption");
+				img.onclick = function(){
+					modal.style.display = "block";
+					modalImg.src = this.src;
+					captionText.innerHTML = this.alt;
+				}
+
+
+				var span = document.getElementsByClassName("close")[0];
+
+
+				span.onclick = function() {
+				modal.style.display = "none";
+				}
+			</script>
+			
+		</body>
+</html>
+
